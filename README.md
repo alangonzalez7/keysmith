@@ -8,14 +8,14 @@ KeySmith helps you create high‑entropy passwords and evaluate their strength w
 
 ## Features
 
--   Cryptographically secure password generation (WebCrypto / Node `crypto`)
--   Entropy calculation utilities (pure functions, no DOM)
--   API‑first design (Express + Zod + Swagger)
--   Modern UI (React + Vite + Tailwind)
--   Testing setup (Vitest, Testing Library, Playwright)
--   Linting/formatting (ESLint + Prettier, Husky + lint‑staged)
--   CI/CD via GitHub Actions
--   Deploy targets: Vercel (web), Render or Fly.io (API)
+- Cryptographically secure password generation (WebCrypto / Node `crypto`)
+- Entropy calculation utilities (pure functions, no DOM)
+- API‑first design (Express + Zod + Swagger)
+- Modern UI (React + Vite + Tailwind)
+- Testing setup (Vitest, Testing Library, Playwright)
+- Linting/formatting (ESLint + Prettier, Husky + lint‑staged)
+- CI/CD via GitHub Actions
+- Deploy targets: Vercel (web), Render or Fly.io (API)
 
 ## Monorepo Structure
 
@@ -30,23 +30,23 @@ keysmith/
 
 ## Security Principles
 
--   Use `crypto.getRandomValues` in the browser and `crypto.randomBytes` in Node.
--   Never use `Math.random` for security‑sensitive operations.
--   Keep secrets out of source control; commit only `.env.example`.
+- Use `crypto.getRandomValues` in the browser and `crypto.randomBytes` in Node.
+- Never use `Math.random` for security‑sensitive operations.
+- Keep secrets out of source control; commit only `.env.example`.
 
 ## Tech Stack
 
--   Frontend: React, Vite, Tailwind, Testing Library, Vitest, Playwright
--   Backend: Node.js, Express, Zod, Swagger, Vitest/Jest
--   Tooling: npm workspaces, ESLint, Prettier, Husky, lint‑staged
--   CI/CD: GitHub Actions
--   Deploy: Vercel (web), Render or Fly.io (API)
+- Frontend: React, Vite, Tailwind, Testing Library, Vitest, Playwright
+- Backend: Node.js, Express, Zod, Swagger, Vitest/Jest
+- Tooling: npm workspaces, ESLint, Prettier, Husky, lint‑staged
+- CI/CD: GitHub Actions
+- Deploy: Vercel (web), Render or Fly.io (API)
 
 ## Requirements
 
--   Node.js >= 20 (recommended LTS or newer)
--   npm (bundled with Node)
--   GitHub account (for repo, CI, and deployment integrations)
+- Node.js >= 20 (recommended LTS or newer)
+- npm (bundled with Node)
+- GitHub account (for repo, CI, and deployment integrations)
 
 ## Getting Started
 
@@ -68,13 +68,13 @@ We’ll add root scripts (`dev:web`, `dev:api`, `lint`, `format`, `test`) as par
 
 ## Roadmap (early)
 
--   [ ] Initialize npm workspaces and base tooling
--   [ ] Implement utils: secure generator + entropy functions
--   [ ] Scaffold API with Zod validation + Swagger docs
--   [ ] Scaffold web app with Tailwind and basic UI
--   [ ] Add end‑to‑end tests (Playwright)
--   [ ] Configure CI (lint + test + build)
--   [ ] Set up deployments (Vercel web, Render/Fly.io API)
+- [ ] Initialize npm workspaces and base tooling
+- [ ] Implement utils: secure generator + entropy functions
+- [ ] Scaffold API with Zod validation + Swagger docs
+- [ ] Scaffold web app with Tailwind and basic UI
+- [ ] Add end‑to‑end tests (Playwright)
+- [ ] Configure CI (lint + test + build)
+- [ ] Set up deployments (Vercel web, Render/Fly.io API)
 
 ## License
 
