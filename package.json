@@ -25,7 +25,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "precommit:lint": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format:check": "prettier . --check"
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
