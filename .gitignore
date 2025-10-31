@@ -1,0 +1,49 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Build outputs (any package/app)
+dist/
+build/
+.eslintcache
+
+# Vite cache
+.vite/
+
+# Test artifacts
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+.playwright/
+
+# Environment files (keep example files tracked)
+.env
+.env.*
+!**/.env.example
+
+# OS/Editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime pids
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Caches and temp
+.cache/
+.tmp/
+
+# Vercel
+.vercel/
